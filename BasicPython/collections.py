@@ -14,6 +14,15 @@ print(misc)
 print("\nSet and Tuples")
 print(" ----------- ")
 tup=(12,22,11,44,12)
+print(tup)
 set={12,33,33,11,11,43,12}
 print(set)
 print(set.union(tup))
+
+#Dicitonary
+print("\nDictionary")
+print(" ------- ")
+
+dicti=dict(zip(set,misc))
+for key in dicti.keys():
+    print(str(key)+" : "+str(dicti.get(key)))
