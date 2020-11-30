@@ -1,5 +1,6 @@
 from BasicPython.basicProgramming.sdeSet.arraysSet import ArraySets
 from BasicPython.basicProgramming.sdeSet.backTrackSet import BackTrackSet
+from BasicPython.basicProgramming.sdeSet.dynamicDraw import DynamicDraw
 from BasicPython.basicProgramming.sdeSet.genericSet import GenericSet
 from BasicPython.basicProgramming.sdeSet.stringSet import StringSet
 
@@ -22,8 +23,20 @@ def completedStringSet():
     string.aTOi("123a")
     string.srStr("GeeksForGeeks", "Fr")
 
-bc=BackTrackSet()
-bc.generateIp("255000255")
+def completedBackTrackSet():
+    bc = BackTrackSet()
+    bc.generateIp("11211")
+
+def completedPatternPrint():
+    dd = DynamicDraw()
+    dd.catDraw(7)
+    dd.halfPyramid(7)
+    dd.inHalfPyramid(7)
+
+dd=DynamicDraw()
+dd.fullPyramid(7)
+
+
 
 
 

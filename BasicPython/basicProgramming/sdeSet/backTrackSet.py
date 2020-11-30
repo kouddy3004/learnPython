@@ -14,8 +14,6 @@ class BackTrackSet:
                         break
         return check
 
-
-
     def generateIp(self,string="0"):
         print("Possible Generate IP's are : ")
         ip=""
@@ -42,11 +40,9 @@ class BackTrackSet:
                             ip=ip+sk
                             if (self.checkIPvalid(ip)):
                                 print(ip)
-                            ip=ip+sj
                         ip=string[:repI]+"."
 
         else:
             print("IP address should not contain alphabetics")
 
-bc=BackTrackSet()
-bc.generateIp("11211")
+
