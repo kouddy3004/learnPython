@@ -12,9 +12,13 @@ class RequestScript():
         json=JsonHandler()
         self.envDetail=json.readjson(self.restPath+"\\jsonFiles\\env.json")[envName]
 
-    def getRequest(self,parameters):
+    def getRequest(self,parameters=None):
         if(self.envDetail['getUrl'][0]!="/"):
             self.envDetail['getUrl']="/"+self.envDetail['getUrl']
         getUrl=self.envDetail['baseUrl']+self.envDetail['getUrl']
         print("HTTP  Get URL : " +getUrl)
-        return requests.get(getUrl,params=parameters)
+        try:
+            response=requests.get(getUrl, params=parameters)
+        except Exception as e:
+            response = e
+        return response

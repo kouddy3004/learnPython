@@ -17,7 +17,8 @@ tup=(12,22,11,44,12)
 print(tup)
 set={12,33,33,11,11,43,12}
 print(set)
-print(set.union(tup))
+set=set.union(tup)
+print(set)
 
 #Dicitonary
 print("\nDictionary")

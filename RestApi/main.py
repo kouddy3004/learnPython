@@ -6,9 +6,13 @@ projectPath = os.path.dirname(currentPath)
 
 def getRequest():
     request = RequestScript("reqRes")
-    response = request.getRequest({'id': 8})
-    print(response.json()['data'])
-    print(response.status_code)
-    print(response.headers)
+    response = request.getRequest()
+    if response.status_code==200:
+        print(response.status_code)
+        print(response.headers)
+        print(response.json()['data'])
+    else:
+        print("HTTP not recognised "+str(response.status_code))
+
 
 getRequest()
