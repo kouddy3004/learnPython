@@ -1,4 +1,4 @@
-from behaveFramework.src.reUsables.baseClass import BaseClass
+from behaveFramework.src.baseScripts.baseClass import BaseClass
 
 
 class runAcmeApp(BaseClass):

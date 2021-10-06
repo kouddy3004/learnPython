@@ -1,0 +1,15 @@
+{
+  "Name": "Koushik Subramanian",
+  "Phone Number": "9566356715",
+  "City": ["Tirunelveli","Coimbatore","Chennai","Bangalore"],
+  "Current Address": {
+    "Flat No": "Q-445",
+    "Street Name": "Vishwamithra Street",
+    "Area": "AtthiPatti",
+    "PinCode": "648479",
+    "DistrictAndState": {
+      "District": "Tirunelveli",
+      "State": "TamilNadu"
+    }
+  }
+}
