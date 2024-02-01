@@ -1,0 +1,12 @@
+1D - Tensor:
+a=torch.Tensor([],dtype=)
+a.dtype -> to find the type of values in
+a.type() -> to find the type of variable
+a.size() -> To get the length
+a.nDimension() =-> to get dimensions
+a.view(6,1)->to change the dimension
+torch.from_numpy(varNamr)
+a.numpy()
+a.dot() -> multiplication of all values and add the resultants
+.mean() - > Add all the values and divide it by size
+.linspace()->iterate start to end numbers
