@@ -1,0 +1,6 @@
+Ground connected with grnd in rsp(5). Power 3.3v (1) Power 5v (1->O)
+LED : 
+short connects to ground. Long connects to gpio through 1K resistor
+Switch:
+1st connect with grnd through 10K resisior. 2nd pin connect with +(3.3v). 
+4th pin connect with GPIO through 1k resistor
