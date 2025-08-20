@@ -1,0 +1,32 @@
+Network Charachterstic :-> 
+	Topology(how devices are connected), Speed, Cost, Security(Intrusion Prevention System), Avaialbility(Always available even one server down),Reliability,Scalability
+OSI(Open System Interconnect):
+	Physical Layer -> HUBS
+	Data Link Layer -> MAC Address : Switches
+	Network Layer -> IP Address :  Routers
+	Transport Layer -> TCP/UDP, Port
+	Presentation Layer
+	Session Layer
+	Application Layer
+TCP/IP:
+	Application : Data
+	Transport : Segment
+	Internet: Packet
+	Network : Frame
+
+In Band : Production Network
+Out of band : Management Network(Back up if production fails)
+
+Layer 4 : Transport :
+	error recovery and flow control for end to end host connection.
+	flow Control:
+		Controlling the sender or receiver signal to slow back based on the speed
+	Session Multiplexing:
+		Handling multiple session in a single link
+	Port Numbers:
+		to identify the upper layer protocol
+	Protocols:
+		TCP :
+			Connection Oriented -> Bidirectional
+			performs Flow Control
+	 
