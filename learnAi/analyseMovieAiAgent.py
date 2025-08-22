@@ -1,52 +1,42 @@
 import os
 
-from langchain_community.chat_models import ChatOpenAI
-from langchain_community.llms import HuggingFaceEndpoint
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.prompts import ChatPromptTemplate
-from openai import OpenAI
+from langchain_openai import ChatOpenAI
+
+# From LLM
+api_key = "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"
+llm = ChatOpenAI(
+    base_url="https://openrouter.ai/api/v1",
+    api_key=api_key,
+    model="tngtech/deepseek-r1t2-chimera:free"
+)
+aiOutput = StrOutputParser()
 
 
 def chatwithOpenAi(inputMsg):
-    api_key = "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"
     # prompting
     inputPrompt = ChatPromptTemplate.from_messages(
-        [("system", "You are a helpful AI Assistant more effective for Movies created by Koushik. Your name is Jarvis"),
+        [("system", "You are a helpful AI Assistant more effective for For my AI Learning created by Koushik. Your name is Koushik's Bot"),
          ("human", "Enter your query {msg}")]
     )
 
-    client = OpenAI(
-        base_url="https://openrouter.ai/api/v1",
-        api_key=api_key
-    )
-
-    response = client.chat.completions.create(model="tngtech/deepseek-r1t2-chimera:free", messages=[{"role": "user",
-                                                                                                     "content": inputMsg}])
+    # response = llm.chat.completions.create( messages=[{"role": "user","content": inputMsg}])
+    # aiOutput = response.choices[0].message.content.encode('ascii', 'ignore').decode('ascii')
+    # aiOutput = aiOutput.replace('\n\n', "", 1)
 
     # Create chain
-    aiOutput = response.choices[0].message.content.encode('ascii', 'ignore').decode('ascii')
+    chain = inputPrompt | llm
+    response = chain.invoke({"msg": inputMsg})
+    aiOutput = response.content.encode('ascii', 'ignore').decode('ascii')
     aiOutput = aiOutput.replace('\n\n', "", 1)
     return str(aiOutput)
 
 
-def chatwithDf(inputMsg):
-    apiKey = "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"
+def chatWithPandas(userInput):
+    # From CSV
     import pandas as pd
     df = pd.read_csv(os.path.join("datasets", "Cars_Datasets_2025.csv"), encoding='latin1')
-    # prompting
-    inputPrompt = ChatPromptTemplate.from_messages(
-        [("system", "You are a helpful AI Assistant more effective for Movies created by Koushik. Your name is Jarvis"),
-         ("human", "Enter your query {msg}")]
-    )
-
-    # Create LLM
-    llm = HuggingFaceEndpoint(repo_id="HuggingFaceH4/zephyr-7b-beta")
-    aiOutput = StrOutputParser()
-
-    # Create chain
-    chain = inputPrompt | llm | aiOutput
-    response = chain.invoke({"msg": inputMsg})
-    return response
 
 
 if __name__ == "__main__":
