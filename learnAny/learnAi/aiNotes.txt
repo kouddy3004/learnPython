@@ -1,0 +1,234 @@
+From the Growth WorkShop:
+
+
+Best way to Prompt 
+Role :  Instruction : Tasks: Data:
+
+AI Tools:
+1. Granola -> To take meeting Notes
+2. Claude -> To write Emails
+3 . Yupp -> Free and collect all AI model
+4. Flow -> VOICE AI
+Whispr Flow : https://link.outskill.com/whisprflow-outskill
+5. Emily : Chrome Extension for chat with web Pages or web videos
+6. Fireflies : Meeting attender on behalf of u
+7. Claude : AI to read Image
+8. Crystal Knows : to know person based on social
+9. Phot.AI : For photographer
+10 . Super Grow : to do things with linked in
+11. Happenstance : To get people connection
+12. Notebooklm
+13. Numerous.ai : Data analysis using Excel
+14. Suno : Music COmposer AI
+
+
+Horizantal tools (like swiss army knife) -> Chatgpt, GEMINI
+Vertical Tools (like Chef knives) -> Phot.AI, Suno
+
+WorkFlow:
+	Thinker and doer Approach
+		Mckinsey consultant prompt
+	Blind man and elephant Approach
+
+15. Julias.ai : for data analysis
+16 . Grabbit -> 
+17 . WebSync -> To link the url with notebooklm
+18 . Emergent -> Acting as Developer
+19 . Humanic -> Into the website and create Email Campaign sequence
+20 . 
+
+
+Magic Prompt Formula (RAID Framework)
+
+		Role: Define AI’s persona (e.g., “experienced email copywriter from Ogilvy, Uber, Google”)
+		Ask: Specific task request
+		Instruction: Detailed context about audience, tone, requirements
+		Data: Include relevant information, reviews, examples
+			Demonstrated with email writing: basic prompt got 6/10 result, RAID formula achieved 8.5/10
+Mark Down Prompting :
+
+If you are an engineer, join this group : https://link.outskill.com/AIFT
+Linkedin Pledge : https://reflections.outskill.com/mm-onboarding-post
+Weekly AI Updates Community : https://link.outskill.com/AIUPDATES
+If you are an engineer, join this group : https://link.outskill.com/AIFT
+Notions :https://highfalutin-camel-f57.notion.site/OutSkill-s-Generative-AI-Mastermind-Session-1-Resou[%E2%80%A6]de-2572c10dd7068090a415fa41db7b5d54?source=copy_link
+
+
+Day 1
+Session 1 Notes :
+	Session Overview & Context
+		Generative AI Mastermind Session 1 covering foundations for becoming AI Generalist
+		16-hour weekend commitment (2 days) to learn AI tools and workflows
+		Target: help participants stay relevant in AI-first world where 4/5 jobs will be automated
+
+
+		Next session after lunch: AI workflows combining multiple tools
+
+		AI Revolution & Job Market Reality
+
+		Microsoft report: AI will eliminate 40 specialist jobs (software engineers, data scientists, marketers, finance)
+
+
+		Jobs requiring computers/internet most at risk
+
+
+		Donald Trump added $100k H1B visa fee - reduced demand for traditional workers
+
+
+		Rise of 1-person billion-dollar companies predicted by Sam Altman
+
+
+		Need to shift from specialists to AI Generalists who solve problems using AI
+
+	
+
+AI Model Selection Strategy
+
+517+ AI models available on OpenRouter platform
+
+
+Different models excel at different tasks:
+
+o
+Claude: best for multi-step reasoning, writing, research
+o
+o
+Gemini 2.5: strong for finance, marketing use cases
+o
+o
+ChatGPT: general purpose, good reasoning with “thinking” mode
+o
+
+Reasoning models (DeepSeek, GPT-o1, Claude) think before responding for better outputs
+
+
+Can ask AI to “think harder” for improved results
+
+Essential AI Productivity Tools
+
+Flow by Whisper: Voice-to-text tool, 4x faster than typing (175 vs 30 WPM)
+
+o
+Auto-inserts custom snippets (e.g., “support email” → full template)
+o
+o
+Works across all apps on Windows/Mac/mobile
+o
+
+Gmail + Gemini: Built-in email summarization and reply generation
+
+
+Emily: Chrome extension for YouTube/webpage summarization
+
+o
+Creates interactive summaries, answers follow-up questions
+o
+o
+Works on blog articles, writes LinkedIn comments
+o
+
+Fireflies AI: AI meeting attendance - joins calls, takes notes even when you’re absent
+
+Advanced Research & Analysis Tools
+
+Deep Research (Gemini/Perplexity/ChatGPT): 15-minute comprehensive reports
+
+o
+Scans 100+ sources automatically
+o
+o
+Creates detailed market analysis, pitch deck research
+o
+
+Perplexity Labs: Builds custom research dashboards/apps
+
+o
+Created Kanban board for AI news curation
+o
+o
+Reusable research workflows
+o
+
+Happenstance AI: People research through your network
+
+o
+Connects Gmail/LinkedIn/Twitter (150k+ connections analyzed)
+o
+o
+Finds founders, sales prospects, job opportunities in your extended network
+o
+Content & Learning Tools
+
+SuperGrow: LinkedIn content automation
+
+o
+Converts YouTube videos to viral LinkedIn posts
+o
+o
+40k+ viral post templates for inspiration
+o
+o
+Engagement tracking, comment scheduling
+o
+
+Notebook LM: Learning acceleration tool
+
+o
+Creates podcasts and video courses from documents
+o
+o
+Interactive: join AI-generated discussions to ask questions
+o
+o
+Completely free Google tool
+o
+
+Suno: AI music generation from single text prompts
+
+Specialized Work Tools
+
+Crystal Knows: LinkedIn personality analysis
+
+o
+Analyzes communication preferences, work style
+o
+o
+Provides email templates, meeting strategies
+o
+
+Photo AI: Product photoshoot generation
+
+o
+Upload product image → AI creates professional marketing shots
+o
+o
+Background replacement, multiple scene options
+o
+
+Numerous AI: Excel formula automation
+
+o
+Natural language to Excel formulas
+o
+o
+Bulk data analysis (sentiment analysis on reviews)
+o
+Implementation Roadmap
+
+Level 1: Build AI toolkit for daily problems
+
+
+Level 2: Workflow architect - combine multiple tools
+
+
+Level 3: Beyond text - images, videos, multimedia
+
+
+Level 4: Build AI agents
+
+
+Level 5: Automation and no-code development
+
+
+Full detailed roadmap to be shared at end of tomorrow’s session
+

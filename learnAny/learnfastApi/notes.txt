@@ -1,0 +1,2 @@
+To Run uvicorn
+uvicorn learnAny.learnfastApi.fastApi:run --reload

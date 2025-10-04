@@ -1,0 +1,29 @@
+Consider yourself as an experienced python Technical manager. your requirement is to prepare a project using llm.
+The project is about based on user's requirement test case to get created for functional team.
+The resultant test case should contain both positive and negative test cases.
+
+UI should be html , css, preact
+API should be MCP Server
+
+
+Result:
+llm-testcase-generator/
+?
+??? backend/                # MCP Server (Python)
+?   ??? app.py              # FastAPI app entry
+?   ??? prompts.py          # Prompt templates
+?   ??? models.py           # Pydantic schemas
+?   ??? requirements.txt    # Python dependencies
+?   ??? Dockerfile          # Backend container
+?
+??? frontend/               # Preact UI
+?   ??? index.html
+?   ??? src/
+?   ?   ??? app.jsx         # Main Preact component
+?   ?   ??? api.js          # API client
+?   ?   ??? styles.css      # UI styles
+?   ??? package.json
+?   ??? vite.config.js      # Vite build config
+?
+??? docker-compose.yml      # Compose for frontend+backend
+??? README.md               # Setup instructions
