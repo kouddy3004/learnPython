@@ -1,2 +1,9 @@
 To Run uvicorn
-uvicorn learnAny.learnfastApi.fastApi:run --reload
+uvicorn learnAny.learnfastApi.backEnd.fastApi:run --reload
+To Run Preact
+    npm install vite@latest
+    npm create vite@latest
+    npm run dev
+    react -> component based architecture
+    virtualdom
+    Single Page Application

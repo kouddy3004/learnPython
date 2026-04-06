@@ -2,7 +2,7 @@ import os
 import glob
 import pandas as pd
 class MovieDb:
-    filePath=os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))),"learnAi","datasets")
+    filePath=os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))),"learnAi","datasets")
     # def __init__(self, title, director, year):
     #     self.title = title
     #     self.director = director
@@ -12,6 +12,8 @@ class MovieDb:
     #     return f"<MovieDb(title={self.title}, director={self.director}, year={self.year})>"
     
     def getAllMovies(self,name=""):
+        print("Koushik")
+        print(self.filePath)
         all_files = glob.glob(os.path.join(self.filePath, "tmdb_5000_movies.csv"))
         df_from_each_file = (pd.read_csv(f) for f in all_files)
         concatenated_df   = pd.concat(df_from_each_file, ignore_index=True)
@@ -23,4 +25,4 @@ class MovieDb:
 
 
 # obj=MovieDb()
-# obj.getAllMovies()
+# print(obj.filePath)
