@@ -1,0 +1,19 @@
+Symbol,Company Name,Sector/Industry,Open,High,Low,Close,Volume,% Change,Market Category
+BHARTIARTL,Bharti Airtel Limited,Communication Services,1843.0,1893.3,1835.3,1893.3,14189780,3.12,Top Gainer
+HDFCBANK,HDFC Bank Limited,Financial Services,715.25,733.8,715.25,731.0,39400710,2.52,Top Gainer
+AXISBANK,Axis Bank Limited,Financial Services,1244.0,1257.0,1240.5,1257.0,5693016,1.37,Top Gainer
+LT,Larsen & Toubro Limited,Industrials,3846.0,3898.0,3846.0,3885.0,1547690,1.27,Top Gainer
+WIPRO,Wipro Limited,Technology,166.9,166.9,163.3,166.83,23606474,0.26,Top Gainer
+ONGC,Oil and Natural Gas Corporation Limited,Energy,232.43,234.32,231.75,232.8,11146237,0.16,Top Gainer
+HINDUNILVR,Hindustan Unilever Limited,Consumer Defensive,1950.0,1959.6,1932.0,1932.0,1994635,-0.53,Top Gainer
+ICICIBANK,ICICI Bank Limited,Financial Services,1351.9,1359.8,1338.9,1338.9,7509409,-0.65,Top Gainer
+INFY,Infosys Limited,Technology,1061.9,1061.9,1038.0,1051.4,22124953,-0.68,Top Gainer
+TCS,Tata Consultancy Services Limited,Technology,2177.2,2177.3,2101.2,2105.0,6875428,-3.88,Top Loser
+MARUTI,Maruti Suzuki India Limited,Consumer Cyclical,12350.0,12458.0,12103.0,12103.0,659773,-1.9,Top Loser
+NTPC,NTPC Limited,Utilities,329.8,330.85,323.65,323.65,9448827,-1.81,Top Loser
+ITC,ITC Limited,Consumer Defensive,266.6,266.6,262.3,262.3,14399150,-1.47,Top Loser
+RELIANCE,Reliance Industries Limited,Energy,1245.0,1247.3,1226.4,1226.4,15122715,-1.41,Top Loser
+KOTAKBANK,Kotak Mahindra Bank Limited,Financial Services,415.5,419.2,412.5,412.5,15461137,-0.96,Top Loser
+TATASTEEL,Tata Steel Limited,Basic Materials,186.4,187.96,185.54,185.54,29014128,-0.93,Top Loser
+M&M,Mahindra & Mahindra Limited,Consumer Cyclical,3082.0,3098.2,3052.0,3052.0,2973119,-0.8,Top Loser
+HCLTECH,HCL Technologies Limited,Technology,1258.3,1260.8,1235.6,1249.3,2886447,-0.72,Top Loser
